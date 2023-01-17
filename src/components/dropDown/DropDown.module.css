@@ -1,0 +1,22 @@
+.dropDown {
+  position: relative;
+}
+.actionsPopUp {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 8px);
+  left: 0;
+
+  display: none;
+
+  padding: 10px;
+
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.actionsPopUp.actionsIsOpened {
+  display: block;
+}
